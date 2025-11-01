@@ -88,6 +88,24 @@ button:hover {
   animation: spin 1s linear infinite;
 }
 
+/* Кнопка "Load more" */
+.load-more {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 24px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more:hover {
+  background-color: #43a047;
+}
+
+
 @keyframes spin {
   100% {
     transform: rotate(360deg);
@@ -97,3 +115,4 @@ button:hover {
 .is-hidden {
   display: none;
 }
+
